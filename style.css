@@ -1,0 +1,278 @@
+body{
+    background-image: url("tło.png");
+    background-repeat: no-repeat;
+    width: 1372px ;
+    height: 1550px ;    
+}
+#container{
+    width: 1372px ;
+    height: 1050px ;
+    max-height: max-content;
+}
+
+#logo{
+    width: 430px;
+    height: 111px;
+    margin-top: 55px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    margin-left: 353px;
+    opacity: 0.5;
+}
+.column.AAA{
+    width: 50%;
+    height: 50%;
+    /*background-color: #575eac;*/
+    margin-top:0px;
+}
+.header h3{
+    margin-top: 26px;
+    margin-right: 170px;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+    font-weight:1;
+    letter-spacing:0.5px;
+    font-family: Calibri, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.box1{
+    width:380px;
+    height:420px;
+    margin-left: 85px;
+    margin-top:40px;
+    background-color: rgb(248, 247, 247);
+    -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    border-radius: 1px;
+    margin-bottom:10px
+}
+
+.form{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    height: 40px;
+    width: 340px;
+    float: left;
+    clear: both;
+    border-top: 1px  solid rgb(214, 218, 224);
+    border-right: 1px  solid rgb(214, 218, 224);
+    border-bottom: 1px  solid rgb(214, 218, 224);
+    border-left: 1px  solid rgb(214, 218, 224);
+    border-radius: 5px;
+    
+    
+
+}
+.img{
+    margin-left:16px;
+    margin-top: 10px;
+    background-color:rgb(248, 247, 247);
+    width: 60px;
+    float: left;
+    clear: both;
+    
+    
+    
+}
+
+input{
+    width: 278px;
+    height: 36px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: -17px;
+    background-color: rgb(248, 247, 247);
+    float: left;
+    clear: both;
+    border: none;
+    border-radius: 5px;
+    border-left: 1px  solid rgb(231, 229, 229);
+    color: rgba(165, 163, 163, 0.87);
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+    
+
+    /*text: fonts*/
+}
+
+select{
+    width: 280px;
+    height: 38px;
+    margin-top: -37px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    float: left;
+    clear: both;
+    border: none;
+    border-left: 1px solid rgb(231, 229, 229);
+    color: rgb(165, 163, 163);
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+    background-color: rgb(248, 247, 247);
+}
+input[name="Username"]{
+    margin-top: -35px;
+    
+}
+
+input[name="Password"]{
+    margin-top: -39px;
+}
+input[name="Confirm Password"]{
+    margin-top: -39px;
+}
+
+input[name="email"]{
+    margin-top: -29px;
+}
+
+
+::placeholder{
+    margin-left: 50px;
+    font-size: 18px;
+    color: rgb(165, 163, 163);
+    padding-left: 20px;
+}
+
+input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 21px;
+    background-color: rgb(136, 200, 20);
+    float: left;
+    clear: both;   
+    outline: none; 
+    
+}
+#accept{
+    float: left;
+    clear: both;
+    width: 295px;
+    height:20px;
+    padding:5px;
+    margin-left: 55px;
+    margin-top: -12px;
+    color: rgb(165, 163, 163);
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+
+}
+
+input[type="submit"]{
+    width: 339px;
+    height: 48px;
+    margin-top: 7px;
+    margin-left: 23px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    float: left;
+    clear: both;
+    border-color: rgb(4, 70, 4);
+    background-color: rgb(147, 208, 43);
+    border-radius: 5px;
+    border-top: 1px  solid rgb(4, 70, 4);
+    border-right: 1px  solid rgb(4, 70, 4);
+    border-bottom: 1px  solid rgb(4, 70, 4);
+    border-left: 1px  solid rgb(4, 70, 4);
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+}
+   
+    
+
+
+column.BBB{
+    width:50%;
+    height:50%;
+    margin-bottom:0px;
+    background-color:yellow;
+}
+.BBB h3{
+    margin-left: -150px;
+    margin-right: 705px;
+    margin-top: -370px;
+    margin-bottom: 30px;
+    font-family: Calibri, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.box2{
+    height: 495px;
+    width:384px;
+    margin-top: 40px;
+    margin-left: 85px;
+    background-color: rgb(248, 247, 247);
+    -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    border-radius: 5px;
+
+}
+input[name="yourname"]{
+    margin-top:-35px;
+}
+
+textarea{
+    margin-top: 17px;
+    margin-right: 25px;
+    margin-left: 21px;
+    width: 337px;
+    height: 240px;
+    border-radius: 5px;
+    border-top: 1px  solid rgb(214, 218, 224);
+    border-right: 1px  solid rgb(214, 218, 224);
+    border-bottom: 1px  solid rgb(214, 218, 224);
+    border-left: 1px  solid rgb(214, 218, 224);
+    background-color: rgb(248, 247, 247);
+}
+textarea::placeholder{
+    width: 155px;
+    height:13px;
+    margin-top: 15px;
+    margin-right:197px;
+    margin-left: 39px;
+    color: rgb(165, 163, 163);
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+}
+.checkbox2.checkbox{
+    margin-top: 10px;
+    margin-right:;
+    margin-bottom: 20px;
+    margin-left: ;
+}
+input[value="Send Email"]{
+    width: 340px;
+    height: 48px;
+    margin-top: 13px;
+    margin-right: 22px;
+    margin-bottom: 24px;
+    margin-left: 22px;
+    font-family: Calibri, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    text-shadow: rgb(2, 2, 2);
+}
+.box2input{
+    margin-top: 20px;
+}
+
+.box2 .form{
+    margin-top:20px;
+}
+
