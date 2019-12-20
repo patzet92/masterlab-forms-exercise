@@ -1,13 +1,16 @@
 body{
     background-image: url("tło.png");
     background-repeat: no-repeat;
-    width: 1372px ;
-    height: 1550px ;    
+    width: 1050px ;
+    height: 1372px ;   
+    max-height: max-content;
+    max-width: max-content; 
 }
 #container{
-    width: 1372px ;
-    height: 1050px ;
+    width: 1050px ;
+    height: 1372px ;
     max-height: max-content;
+    max-width: max-content;
 }
 
 #logo{
@@ -27,7 +30,7 @@ body{
 }
 .header h3{
     margin-top: 26px;
-    margin-right: 170px;
+    margin-left: 170px;
     font-size: 21px;
     text-align: center;
     color: white;
@@ -39,16 +42,17 @@ body{
 }
 
 .box1{
-    width:380px;
-    height:420px;
+    position: absolute;
+    top: 258px;
+    width: 380px;
+    height: 420px;
     margin-left: 85px;
-    margin-top:40px;
     background-color: rgb(248, 247, 247);
     -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
     -moz-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
     box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
-    border-radius: 1px;
-    margin-bottom:10px
+    border-radius: 4px;
+    margin-bottom: 10px
 }
 
 .form{
@@ -64,7 +68,7 @@ body{
     border-right: 1px  solid rgb(214, 218, 224);
     border-bottom: 1px  solid rgb(214, 218, 224);
     border-left: 1px  solid rgb(214, 218, 224);
-    border-radius: 5px;
+    border-radius: 3px;
     
     
 
@@ -84,6 +88,7 @@ body{
 input{
     width: 278px;
     height: 36px;
+    margin-top: -39px;
     margin-left: 60px;
     margin-right: 20px;
     margin-bottom: -17px;
@@ -91,7 +96,6 @@ input{
     float: left;
     clear: both;
     border: none;
-    border-radius: 5px;
     border-left: 1px  solid rgb(231, 229, 229);
     color: rgba(165, 163, 163, 0.87);
     font-family: Calibri, sans-serif;
@@ -144,8 +148,8 @@ input[name="email"]{
 }
 
 input[type="checkbox"]{
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 22px;
     margin-top: 10px;
     margin-left: 21px;
     background-color: rgb(136, 200, 20);
@@ -180,7 +184,7 @@ input[type="submit"]{
     clear: both;
     border-color: rgb(4, 70, 4);
     background-color: rgb(147, 208, 43);
-    border-radius: 5px;
+    border-radius: 4px;
     border-top: 1px  solid rgb(4, 70, 4);
     border-right: 1px  solid rgb(4, 70, 4);
     border-bottom: 1px  solid rgb(4, 70, 4);
@@ -201,19 +205,20 @@ column.BBB{
     background-color:yellow;
 }
 .BBB h3{
-    margin-left: -150px;
+    
+    margin-left: 193px;
     margin-right: 705px;
-    margin-top: -370px;
-    margin-bottom: 30px;
+    margin-top: -700px;
+    margin-bottom: 20px;
     font-family: Calibri, sans-serif;
     font-size: 28px;
     font-weight: lighter;
 }
 
-.box2{
+.box2{ 
     height: 495px;
     width:384px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 85px;
     background-color: rgb(248, 247, 247);
     -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
@@ -227,28 +232,29 @@ input[name="yourname"]{
 }
 
 textarea{
-    margin-top: 17px;
+    margin-top: 15px;
     margin-right: 25px;
     margin-left: 21px;
     width: 337px;
-    height: 240px;
-    border-radius: 5px;
+    height: 230px;
+    border-radius: 4px;
     border-top: 1px  solid rgb(214, 218, 224);
     border-right: 1px  solid rgb(214, 218, 224);
     border-bottom: 1px  solid rgb(214, 218, 224);
     border-left: 1px  solid rgb(214, 218, 224);
     background-color: rgb(248, 247, 247);
+    resize: none;
 }
 textarea::placeholder{
     width: 155px;
-    height:13px;
+    height: 14px;
     margin-top: 15px;
-    margin-right:197px;
+    margin-right: 197px;
     margin-left: 39px;
     color: rgb(165, 163, 163);
     font-family: Calibri, sans-serif;
     font-size: 18px;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 .checkbox2.checkbox{
     margin-top: 10px;
@@ -275,4 +281,81 @@ input[value="Send Email"]{
 .box2 .form{
     margin-top:20px;
 }
+
+/* box 3 */
+
+ .CCC h3{
+    margin-top: -975px;
+    margin-right: -250px;
+    margin-left: 600px;
+    width: 171px;
+    height: 22px;
+  
+}
+.box3{
+    position: absolute;
+    top: 264px;
+    right: 81px;
+    width: 383px;
+    height: 217px;
+    background-color: rgb(248, 247, 247);
+    -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    border-radius: 4px;
+}
+.box3 .form{
+    margin-top: 30px;
+    margin-bottom: -10px;
+
+}
+.form input[name="username"]{
+    margin-top: -35px;
+    
+}
+
+.checkbox3 input[type=checkbox]{
+    margin-top: 35px;
+    margin-left: 24px;
+    
+}
+.checkbox3 #accept{
+    font-size: 20px;
+    margin-left: 55px;
+
+}
+input[value="Sign In"]{
+    height: 41px;
+    width: 139px;
+    margin-top: -25px;
+    margin-right: 20px;
+    margin-left: 223px;
+    float: left;
+    clear: both;
+
+}
+.DDD h3{
+    margin-top: 300px;
+    margin-right: 400px;
+    margin-bottom:;
+    margin-left:;
+}
+.box4{
+    margin-top: 50px;
+    margin-right: 84px;
+    margin-bottom: 556px;
+    margin-left: 484px ;
+    width:  382px;
+    height: 214px;
+    background-color: rgb(248, 247, 247);
+    -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    border-radius: 4px;
+}
+.box4 .form{
+    margin-top: 10px;
+}
+
+
 
