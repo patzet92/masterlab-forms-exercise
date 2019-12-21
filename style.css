@@ -1,26 +1,25 @@
 body{
+    
     background-image: url("tło.png");
     background-repeat: no-repeat;
-    width: 1050px ;
-    height: 1372px ;   
-    max-height: max-content;
-    max-width: max-content; 
+    
+    
+    
 }
 #container{
     width: 1050px ;
     height: 1372px ;
-    max-height: max-content;
-    max-width: max-content;
+
 }
 
 #logo{
     width: 430px;
     height: 111px;
     margin-top: 55px;
-    background-image: url("logo.png");
+    background-image: url("foot.png");
     background-repeat: no-repeat;
     margin-left: 353px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .column.AAA{
     width: 50%;
@@ -30,7 +29,7 @@ body{
 }
 .header h3{
     margin-top: 26px;
-    margin-left: 170px;
+    
     font-size: 21px;
     text-align: center;
     color: white;
@@ -296,6 +295,7 @@ input[value="Send Email"]{
     position: absolute;
     top: 264px;
     right: 81px;
+    left: 584px;
     width: 383px;
     height: 217px;
     background-color: rgb(248, 247, 247);
@@ -341,21 +341,104 @@ input[value="Sign In"]{
     margin-left:;
 }
 .box4{
+    width: 382px;
+    height: 214px;
     margin-top: 50px;
     margin-right: 84px;
-    margin-bottom: 556px;
-    margin-left: 484px ;
-    width:  382px;
-    height: 214px;
+    margin-left: 486px;
+    background-color: rgb(248, 247, 247);
+    -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
+    border-radius: 4px;
+  
+}
+.box4 .form{
+    position: relative;
+    top:-690px;
+}
+input[value="Send"]{
+    position: relative;
+    top: -677px;
+    right: 1px;
+    height: 41px;
+    width: 147px;
+}
+
+input[value="Done"]{
+    position: relative;
+    top: -725px;
+    right: -192px;
+    height: 41px;
+    width: 147px;
+    background-color:  rgb(188, 219, 151);
+    border-color: rgb(75, 116, 75); 
+}
+
+img[src="phone.png"]{
+    margin-left: 5px;
+}
+img[src="location.png"]{
+    margin-left: 5px;
+}
+.EEE h3{
+    position: relative;
+    width: 214px;
+    height: 22px;
+    top: -249px;
+    right: 25px;
+}
+.box5{
+    position: relative;
+    width: 382px;
+    height: 156px;
+    top: -230px;
+    right: -490px;
     background-color: rgb(248, 247, 247);
     -webkit-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
     -moz-box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
     box-shadow: 2px -1px 1px 20px rgba(0,0,0,0.21);
     border-radius: 4px;
 }
-.box4 .form{
-    margin-top: 10px;
+input[value="Subscribe"]{
+    position: relative;
+    margin-top:-346px;
+    margin-left: 20px;
+    height: 41px;
+    width: 147px;
 }
 
+input[value="No, thanks"]{
+    position: relative;
+    margin-top: -346px;
+    margin-left:215px;
+    height: 41px;
+    width: 147px;
+    background-color: rgb(244, 73, 91);
+    border-color: rgb(158, 43, 55);
+}
 
+.box5 .form{
+    position: relative;
+    top: -363px;
+    margin-top:30px;
+}
+.box5 input{
+    position: relative;
+    top: 7px;
 
+}
+.box5 img[src="email.png"]{
+    margin-top: 13px;
+    margin-left: 19px;
+}
+img[src="foot.png"]{
+    position: absolute;
+    top: 1161px;
+    right: 97px;
+    bottom: 81px;
+    left: 600px;
+    width: 354px;
+    height: 130px;
+    opacity: 0.1;
+}
